@@ -12,6 +12,7 @@ import com.example.resfulMongoDbDemo.domain.Employee;
 
 import java.util.List;
 
+// This is the interface for the service layer.
 public interface IEmployeeService {
     Employee saveEmployee(Employee employee);
 
