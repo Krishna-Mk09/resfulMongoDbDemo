@@ -13,8 +13,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
+/**
+ * The `@Document` annotation tells Spring Data that this class is a document that can be stored in MongoDB
+ */
 @Document
 public class Employee {
+    // A primary key.
     @Id
     private int employeeId;
     private String employeeName;
